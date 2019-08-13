@@ -1,0 +1,144 @@
+/*
+Megha Suryavanshi
+CS545
+*/
+html{
+height:100%;
+}
+body{
+    background-color: #E4DBBF;
+    font-size: 12pt;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    min-height: 100%;
+}
+header img {
+    float: left;
+    border: 2pt solid;
+    border-radius: 6px;
+    width: 180px;
+    height: 140px;
+}
+header h1{
+     text-align: center;
+     font-size: 40px; 
+     font-style: normal;
+     font-family: fantasy;
+     font-weight: normal;
+}
+header{
+    background-color: #DC5B21;
+    padding: 8px;
+    width: 100%;
+}
+nav{ 
+       display: block;
+       background-color: #70AB8F ;
+       font-size: 14pt;
+       font-family: Georgia, serif;
+       font-weight: bold;
+       height: 30px;
+       width: 100%;
+       float: left;
+       padding: 15px 20px;
+       text-decoration: none;
+       text-align: left;
+       overflow: hidden;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;  
+}
+li {
+   display: inline;
+   margin: 20px;
+   text-decoration: none;
+}
+main{
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    padding-bottom: 15px 20px;
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    padding-top: 5px 10px;
+    align-items: flex-start;
+}
+.col3_1{
+     text-align: left;
+     font-size: 12pt;
+     width: 33%;
+     padding: 10px 15px;
+}
+.col3_2{
+    text-align: left;
+    font-size: 12pt;
+    width: 33%;
+    border-left: 2px solid #DC5B21; height:100%;
+    padding: 10px 15px;
+}
+.col3_3{
+    text-align: left;
+    font-size: 12pt;
+    width: 33%;
+    border-left: 2px solid #DC5B21; height: 100%;
+    padding: 10px 15px;
+}
+.col3_1 img{
+    float: left;
+    border: 2pt solid #70AB8F;
+    border-radius: 2px;
+    padding: 0px;
+    width: 180px;
+    height: 200px;
+}
+.col3_3 img{
+    float: right;
+    border: 2pt solid #70AB8F;
+    border-radius: 2px;
+    padding: 0px;
+    width: 180px;
+    height: 180px;
+}
+
+footer {
+    clear: both;
+    background-color: #DC5B21;
+    position: absolute;
+    padding-top: 10px;
+    bottom: 0px;
+    right: 0px;
+    text-align: center;
+    width: 100%;
+} 
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    width: 100%;
+}
+
+.column2_1 {
+text-align: left;
+font-size: 12pt;
+width: 75%;
+padding: 10px 15px;
+
+}
+
+.column2_2 {
+text-align: left;
+font-size: 12pt;
+width: 25%;
+border-left: 4px solid #A9A9A9; height: 100%;
+}
+
+
